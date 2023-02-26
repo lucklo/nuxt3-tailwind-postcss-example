@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.2.2"
+  },
+  "dependencies": {
+    "@egoist/tailwindcss-icons": "^1.0.3",
+    "@iconify/json": "^2.2.23",
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "@tailwindcss/typography": "^0.5.9",
+    "postcss": "^8.3.11",
+    "postcss-color-gray": "^5.0.0",
+    "postcss-import": "^14.0.2",
+    "postcss-nested": "^5.0.6",
+    "sass": "^1.42.1",
+    "autoprefixer": "^10.4.13"
+  }
+}
